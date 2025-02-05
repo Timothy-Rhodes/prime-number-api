@@ -4,7 +4,7 @@
  *
  * Optimizations:
  * - Reject numbers < 2 immediately.
- * - Handle even numbers separately for efficiency.
+ * - Handle multiples of 2 and 3 separately for efficiency.
  * - Loop only up to sqrt(n)
  * - Only check factors of the form 6k ± 1
  *
