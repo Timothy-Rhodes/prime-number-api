@@ -59,6 +59,15 @@ To check if a number is prime, make a GET request to the `/is_prime` endpoint wi
 curl "http://localhost:3000/is_prime?number=19"
 ```
 
+returns this JSON response:
+
+```json
+{
+  "number": "19",
+  "is_prime": true
+}
+```
+
 ---
 
 ## API Documentation
